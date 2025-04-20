@@ -13,6 +13,6 @@ $(BIN): $(SRC)
 
 clean:
 	rm -rf $(BIN)
-	@echo "Cleaning coplite"
+	@echo "Cleaning complete"
 
 .PHONY: all clean
