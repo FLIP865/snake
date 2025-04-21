@@ -1,5 +1,5 @@
 CC = gcc
-SRC = main.c
+SRC = main.c snake.c
 BIN = snake
 
 all: $(BIN)
