@@ -8,7 +8,7 @@ all: $(BIN)
 
 
 $(BIN): $(SRC)
-	@echo "Compiling prigram..."
+	@echo "Compiling program..."
 	@$(CC) $(SRC) -o $(BIN) -lncurses -O2 -g
 
 clean:
